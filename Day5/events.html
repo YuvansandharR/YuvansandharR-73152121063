@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <title> events</title>
+    <script>
+        function onmouse(){
+            alert("Hey Welcome")
+            document.bac
+            }
+            function onchang(){
+            var bg=document.getElementById("oc");
+            document.body.style.backgroundColor = "red";
+            }
+            
+            function onclic(){
+                alert("Clicked me");
+            }
+            function omo(){
+               document.getElementById("om").style.color="green";
+            
+            }
+    </script>
+    </head>
+    <body>
+        <p onmouseover="onmouse()" style="background-color: rgb(93, 214, 123);">ON MOUSE OVER</p>
+    <p onchange="onchang()" style="background-color: rgb(226, 125, 43);" id="oc"><input type="text"> ON change</p>
+<button onclick="onclic()">Click here</button>
+<p onmouseout="omo()" style="background-color: rgb(219, 18, 185)" id="om">Mouse out</p>
+    </body>
+</html>

@@ -1,0 +1,26 @@
+<html>
+
+<head>
+    <title>Pattern</title>
+    <script>
+        function calcpyramid() {
+            let num = parseInt(document.getElementById("number").value);
+
+            for (var i = 1; i <= num; i++) {
+                for (var j = 1; j <= i; j++) {
+                    document.write("*");
+                }
+                document.write("<br>");
+            }
+
+        }
+    </script>
+</head>
+
+<body>
+    Enter the number of rows<input type="text" id="number" />
+    <button onclick="calcpyramid()">Enter</button>
+    <div id="res"></div>
+</body>
+
+</html>

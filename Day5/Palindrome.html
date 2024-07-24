@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <title>Palindrome</title>
+    <script>
+      function palindrome() {
+        let str = document.getElementById("a").value;
+        let remove = str.replace(/[^A-Za-z0-9]/g, '').toLowerCase();
+        let reversestr = remove.split('').reverse().join('');
+        if(remove === reversestr){
+            result = "Palindrome";
+        }
+        else{
+            result = "Not a Palindrome";
+        }
+        document.getElementById("output").innerHTML = result;
+    }
+    </script>
+    </head>
+    <body>
+          Enter the word <input type="text" id="a">  
+          <button onclick="palindrome()">Enter</button>   
+          <div><br>
+            <label><span id="output"></span></label>
+        </div>
+
+    </body>
+</html>

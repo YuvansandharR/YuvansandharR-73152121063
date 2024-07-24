@@ -1,0 +1,67 @@
+body{
+    background:url(desktop-wallpaper-backgrounds-for-login-page-login-page.jpg);
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fill{
+    width: 450px;
+    height: 450px;
+    background-color: black;
+    position: absolute;
+    left: 35%;
+    top: 30%;
+    opacity: 0.6;
+    border-radius: 10%;
+}
+.pic img{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    left: 36%;
+    bottom: 81%;
+    border-radius: 50%;
+
+}
+.pic h1{
+    color: rgb(245, 244, 244);
+    position: absolute;
+    left: 23%;
+    top: 20%;
+}
+.pic input{
+    margin-left: 26%;
+    margin-top: 40%;
+    color: rgb(245, 247, 247);
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid;
+    font-size: 19px;
+
+}
+.box2{
+    position: absolute;
+    bottom: 42%;
+}
+.box3{
+    position: absolute;
+    bottom: 33%;
+}
+.box4{
+   position: absolute;
+   margin-left: 30%;
+   bottom: 33%;
+
+    color: beige;
+}
+.box5{
+    position: absolute;
+   margin-left: 42%;
+   bottom: 20%;
+   font-size: 25px;
+}
