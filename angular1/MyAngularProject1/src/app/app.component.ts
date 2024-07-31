@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { CalculatorService } from './calculator.service';
 
 @Component({
   selector: 'app-root',
@@ -6,7 +7,7 @@ import { Component } from '@angular/core';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  name : string;
+  /*name : string;
   age : number;
   email : string;
   imagePath : string;
@@ -16,6 +17,7 @@ export class AppComponent {
   selectedVehicle : string;
   myStyle :{};
   myClass : string;
+  
   
   constructor(){
     this.name = "Dhoni";
@@ -30,6 +32,8 @@ export class AppComponent {
     this.myClass="MyClass1";
     
   }
+
+  
   changeName(){
     this.name ="Yuvan";
   }
@@ -50,6 +54,12 @@ setSelectedItem(vec : string){
 }
 changeStyle(){
   this.myStyle = {'width':'50%','height':'50%','border':'2px solid red','border-radius':'10px'};
+}
+}*/
+sum : number;
+
+constructor(private calc : CalculatorService){
+  this.sum = calc.getAddition(10,20);
 }
 }
 

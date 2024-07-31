@@ -1,0 +1,33 @@
+.Main{
+    display: flex;
+    gap: 20px ;
+}
+.Hello{
+    border: 2px solid black;
+    width: 50%;
+    height: 80%;
+    padding: 50px;
+}
+
+.side{
+    border: 2px solid black;
+    width: 50%;
+    height: 80%;
+
+}
+.head{
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    
+}
+table{
+    border: 2px solid red;
+    border-color: brown;
+}

@@ -1,4 +1,4 @@
-<h1>Interpolation example</h1>
+<!-- <h1>Interpolation example</h1>
 <br>
 <b>
     Name :{{name}}
@@ -44,4 +44,19 @@ enter your first name <input type="text" [(ngModel)]="fname"/>
       <font color="blue" *ngSwitchDefault>Invalid</font>  
     </div>
     <button (click)="changeStyle()">click here to change </button>
-</div>
+</div> -->
+
+<div class="myDiv">
+    <table width="100%" [cellSpacing]="15" [cellPadding]="10">
+    <tr>
+    <td><a routerLink="home">Home</a></td>
+    <td><a routerLink="contact">Contact</a></td>
+    <td><a routerLink="about">About</a></td>
+    </tr>
+    </table>
+    <hr/>
+    <div>
+    This is the space for New Component.
+    <router-outlet></router-outlet>
+    </div>
+    </div>
